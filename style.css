@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans&family=Roboto+Mono&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{font-family: font-family: 'Lato', sans-serif;;}
+    
+
+
+
+.outer-box {
+width: 100vw;
+height: 100vh;
+background: linear-gradient(to top left, #99d98c, #db00b6 );
+
+ 
+
+}
+
+
+.inner-box{ width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    padding: 20px 40px;
+    transform: translateY(-50%);
+    /* background-color: #ffffffcc; */
+    background: linear-gradient(to top left, #99d98c, #db00b6 );
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px black;
+    z-index: 2;
+
+}
+
+.sineup-header h1{ font-size: 2.5rem;
+color: #023047;}
+
+.sineup-header p{ font-size: 0.9rem;
+color: #8eecf5;}
+
+.sineup-body{
+
+    margin: 20px;
+
+
+}
+
+.sineup-body p{ margin: 10px; 0}
+
+
+.sineup-body p label{
+
+    display: block;
+
+   font-weight: 550;
+}
+
+.sineup-body p input{ 
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #abc4ff;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 3px
+
+}
+
+
+.sineup-body p input[type="submit"]{background-color: #ff86c8;
+border: none;
+color: black;
+cursor: pointer;
+
+
+}
+
+
+.sineup-body p input[type="submit"]:hover{background-color: #db00b6; color: black;
+}
+
+.sineup-footer p{color:black;
+    text-align: center;
+
+}
+
+.sineup-footer a{ color: blue;}
+
+
+.circles{width: 200px;
+height: 200px;
+border-radius: 100px;
+background: linear-gradient(to top right, #ffffff33, #ffffffff);
+position: absolute;}
+
+.c1{top: 100px;
+left: 40px;}
+
+.c2{bottom: 120px;
+right: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
